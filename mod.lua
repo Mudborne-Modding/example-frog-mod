@@ -54,7 +54,7 @@ return {
 
     -- then load in our spritesheet and define the sprites a frog needs
     -- we use our mod_id to load from the mods folder to find our spritesheet
-    local spritesheet = tn.class.texture:new('my_spritesheet', 'mods/' .. mod_id .. '/spritesheet.png')
+    local spritesheet = tn.class.texture:new('my_spritesheet', mod_id .. '/spritesheet.png')
 
     -- then we need to define the sprites from the spritesheet
     -- you can view the spritesheet with the .asesprite files from 'game/resources/sprites'
